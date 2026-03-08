@@ -1,15 +1,15 @@
 cask "spex" do
-  version "0.2.1"
+  version "0.3.0"
 
   on_arm do
-    url "https://github.com/quantumcycle/spex/releases/download/v0.2.1/spex-darwin-arm64"
-    sha256 "ef3a8d91ae6f49db3717bf6181d18f13e384a380189d547f7cb733be8c621c29"
+    url "https://github.com/quantumcycle/spex/releases/download/v0.3.0/spex-darwin-arm64"
+    sha256 "1469794ac4f58fd84c2fe6b00df604112a58d20dc25571b3de9a8477588a2c78"
     binary "spex-darwin-arm64", target: "spex"
   end
 
   on_intel do
-    url "https://github.com/quantumcycle/spex/releases/download/v0.2.1/spex-darwin-amd64"
-    sha256 "be9757daec896792546af73436f2ec63515085476d58fd9a2bfe7c727e485ee3"
+    url "https://github.com/quantumcycle/spex/releases/download/v0.3.0/spex-darwin-amd64"
+    sha256 "468a572100ed55ef5fee573b28bcfe7ebc7cd9f9eb1b2acc10b8c3487d014c5d"
     binary "spex-darwin-amd64", target: "spex"
   end
 
